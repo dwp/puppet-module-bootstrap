@@ -6,7 +6,7 @@ class bootstrap
 {
 
     # require freepuppet
-    include '::freepuppet'
+    include freepuppet
 
     # ensure librarian-puppet is installed
     package { 'librarian-puppet':
