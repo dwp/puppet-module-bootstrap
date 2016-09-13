@@ -7,6 +7,12 @@ class bootstrap
 	
 	# require freepuppet
 	include ::freepuppet
+  
+  # ensure librarian-puppet is installed
+  package { 'librarian-puppet':
+    ensure   => present,
+    provider => pe_gem,
+  }
 	
 	# ensure everyones running off AWS standard time servers
 	class { '::ntp':
