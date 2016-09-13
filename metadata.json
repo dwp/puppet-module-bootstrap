@@ -5,10 +5,7 @@
   "license": "MIT",
   "summary": "A module which provides a basic bootstrap with common code to setup servers.",
   "source": "https://gitlab.itsshared.net/Innovation/puppet-module-bootstrap.git",
-  "tags": [
-    "masterless",
-    "puppet"
-  ],
+  "tags": [ ],
   "dependencies": [
     { "name": "puppetlabs/ntp" },
     { "name": "puppetlabs/pe_gem" }
