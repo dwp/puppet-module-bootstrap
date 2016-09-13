@@ -9,6 +9,7 @@
     "puppet"
   ],
   "dependencies": [
-    { "name": "puppetlabs/ntp" }
+    { "name": "puppetlabs/ntp" },
+    { "name": "puppetlabs/pe_gem" }
   ]
 }
