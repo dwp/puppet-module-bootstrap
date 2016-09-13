@@ -9,14 +9,13 @@ class bootstrap
     include freepuppet
 
     # ensure librarian-puppet is installed
-    package { 'rubygems':
+    package { 'rubygems-integration':
         ensure => present
     }
-    
     package { 'librarian-puppet':
         ensure   => present,
         provider => pe_gem,
-        require  => Package['rubygems']
+        require  => Package['rubygems-integration']
     }
 
     # ensure everyones running off AWS standard time servers
