@@ -14,7 +14,7 @@ class bootstrap
     }
     package { 'librarian-puppet':
         ensure   => present,
-        provider => pe_gem,
+        provider => gem,
         require  => Package['rubygems-integration']
     }
 

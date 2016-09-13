@@ -7,7 +7,6 @@
   "source": "https://gitlab.itsshared.net/Innovation/puppet-module-bootstrap.git",
   "tags": [ ],
   "dependencies": [
-    { "name": "puppetlabs/ntp" },
-    { "name": "puppetlabs/pe_gem" }
+    { "name": "puppetlabs/ntp" }
   ]
 }
