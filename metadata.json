@@ -1,5 +1,6 @@
 {
   "name": "dwpinnovation-bootstrap",
+  "version": "0.0.1",
   "author": "jonty.bale@dwp.gsi.gov.uk",
   "license": "MIT",
   "summary": "A module which provides a basic bootstrap with common code to setup servers.",
