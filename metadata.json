@@ -9,6 +9,6 @@
     "puppet"
   ],
   "dependencies": [
-    { "name": "puppetlabs/ntp", "version_requirement": "< 5.0.0" }
-  ],
+    { "name": "puppetlabs/ntp" }
+  ]
 }
