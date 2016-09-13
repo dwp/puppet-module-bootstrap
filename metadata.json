@@ -7,5 +7,10 @@
   "tags": [
     "masterless",
     "puppet"
-  ]
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/ntp", "< 5.0.0"
+    }
+  ],
 }
