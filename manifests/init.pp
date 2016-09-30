@@ -4,19 +4,8 @@
 #
 class bootstrap
 {
-
     # require freepuppet
     include freepuppet
-
-    # ensure librarian-puppet is installed
-    package { 'rubygems-integration':
-        ensure => present
-    }
-    package { 'librarian-puppet':
-        ensure   => present,
-        provider => gem,
-        require  => Package['rubygems-integration']
-    }
 
     # ensure everyones running off AWS standard time servers
     class { '::ntp':
