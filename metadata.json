@@ -4,7 +4,7 @@
   "author": "jonty.bale@dwp.gsi.gov.uk",
   "license": "MIT",
   "summary": "A module which provides a basic bootstrap with common code to setup servers.",
-  "source": "https://gitlab.itsshared.net/Innovation/puppet-module-bootstrap.git",
+  "source": "https://github.com/dwpdigitaltech//puppet-module-bootstrap.git",
   "tags": [ ],
   "dependencies": [
     { "name": "puppetlabs/ntp" }
